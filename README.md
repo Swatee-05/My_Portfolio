@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -35,21 +35,28 @@ body {
     color: #666;
     font-size: 1.2rem;
 }
-
-/* JavaScript */
 </style>
 </head>
 <body>
+
 <div class="container">
     <div class="portfolio-content">
         <h1 class="heading">Welcome to My Portfolio</h1>
         <p class="paragraph">This is a single HTML file combining HTML, CSS, and JavaScript.</p>
+        <button onclick="showAlert()">Click Me</button>
     </div>
 </div>
 
 <script>
-// JavaScript code goes here
-// You can add JavaScript functionality such as animations, event listeners, etc.
+// JavaScript code
+function showAlert() {
+    alert("Hello! This is an example of JavaScript functionality.");
+}
+</script>
+
+</body>
+</html>
+
 </script>
 
 </body>
