@@ -3,6 +3,133 @@ My website and about me.
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    /* Reset some basic elements */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+  text-align: center;
+  color: green;
+}
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.animated-background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(-45deg, #262626, #121212, #262626, #121212);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+  color: #fff;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animated-background h1 {
+  font-size: 3rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.animated-background p {
+  font-size: 1.5rem;
+  margin-top: 20px;
+  opacity: 0.8;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.animated-background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(-45deg, #24C6DC, #514A9D, #FF512F, #F09819);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+}
+
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #e4f9f5; /* Light green background */
+}
+
+nav {
+    background: #0f4c75; /* Dark blue */
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+#home {
+    background-color: #30e3ca; /* Turquoise */
+}
+
+#about, #contact {
+    background-color: #11999e; /* Teal */
+}
+
+#portfolio {
+    background-color: #40514e; /* Dark green */
+    color: #fff;
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+}
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
